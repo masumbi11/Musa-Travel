@@ -156,9 +156,12 @@ section{
 .Choose-content h3{
     color: var(--black);
     font-size: 40px;
+    text-align: center;
     font-weight: 800;
 }
 .Choose-content P{
+    text-align: center;
+    margin: 0 auto;
      width: 643px;
      color: var(--white-gray);
 }
@@ -266,19 +269,24 @@ section{
         margin: 0 auto;
     }
     .Choose-hotel{
-        width: 95%;
+        padding-left: 0;
+        width: 97.50%;
         height: 289px;
-        margin: 0 20px 0 20px;
+        margin: 0 20px 20px 20px;
     }
     .Choose-map{
-        width: 95%;
+        padding-left: 0%;
+        width: 97.50%;
         height: 289px;
-        margin: 0 20px 0 20px;
+        margin: 0 20px 20px 20px;
+
     }
     .Choose-price{
-        width: 95%;
+        padding: 0;
+        width:97.50%;
         height: 289px;
-        margin: 0 20px 0 20px;
+        margin: 0 20px 20px 20px;
+
     }
 
 }
